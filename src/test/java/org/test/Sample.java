@@ -1,10 +1,13 @@
 package org.test;
 
+import org.testng.annotations.Test;
+
 public class Sample {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+@Test
+private void test1() {
+System.out.println("hello its me payal");
+System.out.println("its my first project class");
+System.out.println("this is sample class");
+}
+	
 }
